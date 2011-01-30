@@ -1,0 +1,6 @@
+Visual Sudoku requires OpenCV and tesseract to run.
+OpenCV is required for the image processing, and tesseract for the OCR.
+
+Assuming everything is installed in the default paths,
+g++ main.cpp -I /usr/include/opencv/ -I /usr/include/tesseract/ -L /usr/lib/ -lcv -lhighgui -lml -lcvaux -ltesseract_full
+should do the compilation for you.
